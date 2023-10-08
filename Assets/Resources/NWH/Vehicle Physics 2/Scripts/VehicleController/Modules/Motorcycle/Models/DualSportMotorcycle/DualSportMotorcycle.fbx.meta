@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 99fc1a20b8fd9224198049748e45b77a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 6960487912919276538
+    second: Swingarm|BootsAction
+  - first:
+      74: 5665966229171026325
+    second: Swingarm|ForksLowerAction
+  - first:
+      74: 6061589015688486619
+    second: Swingarm|ShockRAction
+  - first:
+      74: -8280380997051870395
+    second: Swingarm|ShockRAction.001
+  - first:
+      74: -7713677255897593321
+    second: Swingarm|SwingarmAction
+  - first:
+      74: 5586274732496446
+    second: ForksLower|BootsAction
+  - first:
+      74: -1073221457371775174
+    second: ForksLower|ForksLowerAction
+  - first:
+      74: -8440714581017591082
+    second: ForksLower|ShockRAction
+  - first:
+      74: -1828926320475489682
+    second: ForksLower|ShockRAction.001
+  - first:
+      74: -8282963474018309096
+    second: ForksLower|SwingarmAction
+  - first:
+      74: 3982723560384052269
+    second: Boots|BootsAction
+  - first:
+      74: -1640453526102088637
+    second: Boots|ForksLowerAction
+  - first:
+      74: 6200955455500849070
+    second: Boots|ShockRAction
+  - first:
+      74: 6493637070375256334
+    second: Boots|ShockRAction.001
+  - first:
+      74: -6883399189028833204
+    second: Boots|SwingarmAction
+  - first:
+      74: 3205873191452569102
+    second: ShockR|BootsAction
+  - first:
+      74: -5731239579916489252
+    second: ShockR|ForksLowerAction
+  - first:
+      74: -8677267687234301244
+    second: ShockR|ShockRAction
+  - first:
+      74: 1517123136230173139
+    second: ShockR|ShockRAction.001
+  - first:
+      74: -3459349424546575070
+    second: ShockR|SwingarmAction
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Detail
+    second: {fileID: 2100000, guid: 9890f4d72fe7e1946b608d53d1bb9210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fairing
+    second: {fileID: 2100000, guid: 0cdd750a39e4c754991be21ebc2f143f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame
+    second: {fileID: 2100000, guid: ffd4969347c60bc49a4e4a30551bdea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: a0eea3ec5e5757545abef4c70a218407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handlebars
+    second: {fileID: 2100000, guid: c29cc2d077233ea439198df360b36f6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lights
+    second: {fileID: 2100000, guid: eb4d31f692ecb2c4cbcd52cf06a301c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MirrorL
+    second: {fileID: 2100000, guid: f2aa30f312acd4447adb8c22972b9378, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MirrorR
+    second: {fileID: 2100000, guid: 51d25986a59740942948439c152d966b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel
+    second: {fileID: 2100000, guid: ee538351e4d0d954d809d1367135eaeb, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

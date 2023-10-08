@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc561ac79d22fd74dba6cf84dd95cded, type: 3}
+  m_Name: GrassSurfacePreset
+  m_EditorClassIdentifier: 
+  particleType: 0
+  particleColor: {r: 1, g: 0.8870876, b: 0.28773582, a: 1}
+  maxParticleEmissionRateOverDistance: 0.5
+  particleSize: 2
+  emitParticles: 0
+  emitChunks: 0
+  maxChunkEmissionRateOverDistance: 1
+  chunkLifeDistance: 3
+  maxChunkLifetime: 0.5
+  particleMaxAlpha: 0.7
+  maxParticleLifetime: 0
+  particleLifeDistance: 10
+  frictionPreset: {fileID: 11400000, guid: f550961d8fc79d84abd7ca194acc766d, type: 2}
+  name: Grass
+  skidSoundClip: {fileID: 0}
+  playSkidSounds: 0
+  skidSoundPitch: 0.65
+  skidSoundVolume: 0
+  slipFactor: 0
+  slipSensitiveSurfaceSound: 0
+  playSurfaceSounds: 0
+  surfaceSoundClip: {fileID: 0}
+  surfaceSoundPitch: 1
+  surfaceSoundVolume: 0
+  drawSkidmarks: 1
+  skidmarkMaterial: {fileID: 2100000, guid: 7060dd8d1f6d6264e942d722c5352c2f, type: 2}
+  skidmarkBaseIntensity: 0.278

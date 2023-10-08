@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc561ac79d22fd74dba6cf84dd95cded, type: 3}
+  m_Name: SandSurfacePreset
+  m_EditorClassIdentifier: 
+  particleType: 1
+  particleColor: {r: 1, g: 0.8694254, b: 0.5896226, a: 1}
+  maxParticleEmissionRateOverDistance: 0.331
+  particleSize: 2
+  emitParticles: 1
+  emitChunks: 0
+  maxChunkEmissionRateOverDistance: 1
+  chunkLifeDistance: 3
+  maxChunkLifetime: 0.5
+  particleMaxAlpha: 0.994
+  maxParticleLifetime: 4
+  particleLifeDistance: 20
+  frictionPreset: {fileID: 11400000, guid: 6375fb3b1aada5a4fa107212bc09c43c, type: 2}
+  name: Sand
+  skidSoundClip: {fileID: 8300000, guid: a2a31d70250395f42ae658a9f1a2a453, type: 3}
+  playSkidSounds: 1
+  skidSoundPitch: 0.82
+  skidSoundVolume: 0.05
+  slipFactor: 0
+  slipSensitiveSurfaceSound: 0
+  playSurfaceSounds: 1
+  surfaceSoundClip: {fileID: 8300000, guid: a2a31d70250395f42ae658a9f1a2a453, type: 3}
+  surfaceSoundPitch: 0.75
+  surfaceSoundVolume: 0.03
+  drawSkidmarks: 1
+  skidmarkMaterial: {fileID: 2100000, guid: 449bf69ad657ea4429f852bc77906eee, type: 2}
+  skidmarkBaseIntensity: 0.787

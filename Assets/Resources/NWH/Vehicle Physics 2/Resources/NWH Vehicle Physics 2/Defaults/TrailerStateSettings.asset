@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242cc1b715272294697a41ce58ba73b7, type: 3}
+  m_Name: TrailerStateSettings
+  m_EditorClassIdentifier: 
+  definitions:
+  - fullName: NWH.VehiclePhysics2.Brakes
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: Brakes
+  - fullName: NWH.VehiclePhysics2.Effects.DamageHandler
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: DamageHandler
+  - fullName: NWH.VehiclePhysics2.Effects.EffectManager
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: EffectManager
+  - fullName: NWH.VehiclePhysics2.Effects.ExhaustFlash
+    isEnabled: 1
+    isOn: 0
+    lodIndex: -1
+    name: ExhaustFlash
+  - fullName: NWH.VehiclePhysics2.Effects.ExhaustSmoke
+    isEnabled: 1
+    isOn: 0
+    lodIndex: -1
+    name: ExhaustSmoke
+  - fullName: NWH.VehiclePhysics2.Effects.LightsMananger
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: LightsMananger
+  - fullName: NWH.VehiclePhysics2.Effects.SkidmarkManager
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: SkidmarkManager
+  - fullName: NWH.VehiclePhysics2.Effects.SurfaceParticleManager
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: SurfaceParticleManager
+  - fullName: NWH.VehiclePhysics2.GroundDetection.GroundDetection
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: GroundDetection
+  - fullName: NWH.VehiclePhysics2.Input.VehicleInputHandler
+    isEnabled: 1
+    isOn: 0
+    lodIndex: 2
+    name: VehicleInputHandler
+  - fullName: NWH.VehiclePhysics2.Modules.ABS.ABSModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: ABSModule
+  - fullName: NWH.VehiclePhysics2.Modules.Aerodynamics.AerodynamicsModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: AerodynamicsModule
+  - fullName: NWH.VehiclePhysics2.Modules.AirSteer.AirSteerModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: AirSteerModule
+  - fullName: NWH.VehiclePhysics2.Modules.ArcadeModule.ArcadeModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: ArcadeModule
+  - fullName: NWH.VehiclePhysics2.Modules.CruiseControl.CruiseControlModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: CruiseControlModule
+  - fullName: NWH.VehiclePhysics2.Modules.ESC.ESCModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: ESCModule
+  - fullName: NWH.VehiclePhysics2.Modules.FlipOver.FlipOverModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: FlipOverModule
+  - fullName: NWH.VehiclePhysics2.Modules.Fuel.FuelModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: FuelModule
+  - fullName: NWH.VehiclePhysics2.Modules.Metrics.MetricsModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: MetricsModule
+  - fullName: NWH.VehiclePhysics2.Modules.ModuleManager
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: ModuleManager
+  - fullName: NWH.VehiclePhysics2.Modules.ModuleTemplate.ModuleTemplate
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: ModuleTemplate
+  - fullName: NWH.VehiclePhysics2.Modules.MotorcycleModule.MotorcycleModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: MotorcycleModule
+  - fullName: NWH.VehiclePhysics2.Modules.NOS.NOSSoundComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: NOSSoundComponent
+  - fullName: NWH.VehiclePhysics2.Modules.NOSModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: NOSModule
+  - fullName: NWH.VehiclePhysics2.Modules.Rigging.RiggingModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: RiggingModule
+  - fullName: NWH.VehiclePhysics2.Modules.SpeedLimiter.SpeedLimiterModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: SpeedLimiterModule
+  - fullName: NWH.VehiclePhysics2.Modules.TCS.TCSModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: TCSModule
+  - fullName: NWH.VehiclePhysics2.Modules.Trailer.TrailerHitchModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: TrailerHitchModule
+  - fullName: NWH.VehiclePhysics2.Modules.Trailer.TrailerModule
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: TrailerModule
+  - fullName: NWH.VehiclePhysics2.Powertrain.Powertrain
+    isEnabled: 1
+    isOn: 0
+    lodIndex: -1
+    name: Powertrain
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.AirBrakeComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: AirBrakeComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.BlinkerComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: BlinkerComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.BrakeNoiseComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: BrakeNoiseComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.CrashComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: CrashComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.EngineFanComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: EngineFanComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.EngineRunningComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: EngineRunningComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.EngineStartComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: EngineStartComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.ExhaustPopComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: -1
+    name: ExhaustPopComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.GearChangeComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: GearChangeComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.HornComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: HornComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.ReverseBeepComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: ReverseBeepComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.SuspensionBumpComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: SuspensionBumpComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.TransmissionWhineComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: TransmissionWhineComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.TurboFlutterComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: TurboFlutterComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.TurboWhistleComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: TurboWhistleComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.WheelSkidComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: WheelSkidComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundComponents.WheelTireNoiseComponent
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: WheelTireNoiseComponent
+  - fullName: NWH.VehiclePhysics2.Sound.SoundManager
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: SoundManager
+  - fullName: NWH.VehiclePhysics2.Steering
+    isEnabled: 1
+    isOn: 1
+    lodIndex: 2
+    name: Steering
+  LODs:
+  - {fileID: 11400000, guid: bbb1e1ce24d085d449fd467c6b98027c, type: 2}
+  - {fileID: 11400000, guid: 24c4d05d4c3c3c7498c50432e96397b6, type: 2}
+  - {fileID: 11400000, guid: d59985b42f140cc46b1d1fedec9e54a5, type: 2}
+  - {fileID: 11400000, guid: 33c53182d3bbba4459d6577ad3433245, type: 2}

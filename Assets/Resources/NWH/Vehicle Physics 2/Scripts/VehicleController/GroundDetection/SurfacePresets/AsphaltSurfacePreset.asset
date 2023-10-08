@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc561ac79d22fd74dba6cf84dd95cded, type: 3}
+  m_Name: AsphaltSurfacePreset
+  m_EditorClassIdentifier: 
+  particleType: 0
+  particleColor: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+  maxParticleEmissionRateOverDistance: 0.938
+  particleSize: 2.4
+  emitParticles: 1
+  emitChunks: 0
+  maxChunkEmissionRateOverDistance: 1
+  chunkLifeDistance: 3
+  maxChunkLifetime: 0.5
+  particleMaxAlpha: 1
+  maxParticleLifetime: 4
+  particleLifeDistance: 18
+  frictionPreset: {fileID: 11400000, guid: 935347efafd41d4408543d5ce8339437, type: 2}
+  name: Asphalt
+  skidSoundClip: {fileID: 8300000, guid: 23786ba668590b8418f6771116dbaf09, type: 3}
+  playSkidSounds: 1
+  skidSoundPitch: 1.29
+  skidSoundVolume: 0.22
+  slipFactor: 1
+  slipSensitiveSurfaceSound: 1
+  playSurfaceSounds: 1
+  surfaceSoundClip: {fileID: 8300000, guid: 77d6eaeb41d727a4681a2cc8654c60b2, type: 3}
+  surfaceSoundPitch: 1
+  surfaceSoundVolume: 0.21
+  drawSkidmarks: 1
+  skidmarkMaterial: {fileID: 2100000, guid: ca984932f6957a744bdc716a2ac03220, type: 2}
+  skidmarkBaseIntensity: 0

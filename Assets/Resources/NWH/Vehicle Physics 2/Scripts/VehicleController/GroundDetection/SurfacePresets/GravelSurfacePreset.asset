@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc561ac79d22fd74dba6cf84dd95cded, type: 3}
+  m_Name: GravelSurfacePreset
+  m_EditorClassIdentifier: 
+  particleType: 1
+  particleColor: {r: 0.9056604, g: 0.8370035, b: 0.71342117, a: 1}
+  maxParticleEmissionRateOverDistance: 0.35
+  particleSize: 1.63
+  emitParticles: 1
+  emitChunks: 1
+  maxChunkEmissionRateOverDistance: 12
+  chunkLifeDistance: 2
+  maxChunkLifetime: 0.7
+  particleMaxAlpha: 1
+  maxParticleLifetime: 3
+  particleLifeDistance: 15
+  frictionPreset: {fileID: 11400000, guid: b77d14e1beea2284b816a3e0e12a5798, type: 2}
+  name: Gravel
+  skidSoundClip: {fileID: 8300000, guid: c69868bf7aebc1f4980e076264a14be5, type: 3}
+  playSkidSounds: 1
+  skidSoundPitch: 0.35
+  skidSoundVolume: 0.16
+  slipFactor: 0
+  slipSensitiveSurfaceSound: 0
+  playSurfaceSounds: 1
+  surfaceSoundClip: {fileID: 8300000, guid: f21e5fe2f8b9f9c41a606d4129223466, type: 3}
+  surfaceSoundPitch: 1
+  surfaceSoundVolume: 0.16
+  drawSkidmarks: 1
+  skidmarkMaterial: {fileID: 2100000, guid: 366e7eca079c5fd4e93abdc182e78c74, type: 2}
+  skidmarkBaseIntensity: 0.426

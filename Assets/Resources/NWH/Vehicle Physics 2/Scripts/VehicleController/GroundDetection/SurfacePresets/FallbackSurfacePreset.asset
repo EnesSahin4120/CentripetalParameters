@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc561ac79d22fd74dba6cf84dd95cded, type: 3}
+  m_Name: FallbackSurfacePreset
+  m_EditorClassIdentifier: 
+  particleType: 0
+  particleColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+  maxParticleEmissionRateOverDistance: 0.5
+  particleSize: 2
+  emitParticles: 1
+  emitChunks: 0
+  maxChunkEmissionRateOverDistance: 1
+  chunkLifeDistance: 3
+  maxChunkLifetime: 0.5
+  particleMaxAlpha: 0.8
+  maxParticleLifetime: 0
+  particleLifeDistance: 10
+  frictionPreset: {fileID: 11400000, guid: 21211030b85d8a44190f2a36324ef00e, type: 2}
+  name: Fallback/Default
+  skidSoundClip: {fileID: 8300000, guid: 54bbc60051d16904d9fa34c6fff4b874, type: 3}
+  playSkidSounds: 1
+  skidSoundPitch: 0.65
+  skidSoundVolume: 0
+  slipFactor: 1
+  slipSensitiveSurfaceSound: 0
+  playSurfaceSounds: 1
+  surfaceSoundClip: {fileID: 8300000, guid: 77d6eaeb41d727a4681a2cc8654c60b2, type: 3}
+  surfaceSoundPitch: 1
+  surfaceSoundVolume: 0
+  drawSkidmarks: 1
+  skidmarkMaterial: {fileID: 2100000, guid: 0a47dd039b84a104aae3d86a9befdf3f, type: 2}
+  skidmarkBaseIntensity: 0
